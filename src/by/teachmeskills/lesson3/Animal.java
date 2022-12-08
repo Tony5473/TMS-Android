@@ -11,7 +11,9 @@ public class Animal {
     Animal (String type, String name, String age){
 
         this.type = type;
+
         this.name = name;
+
         this.age = age;
 
     }

@@ -12,7 +12,9 @@ public class Task1 {
 
     {
 
+
         Scanner Scanner = new Scanner(System.in);
+
 
         int a = Scanner.nextInt();
 
@@ -22,7 +24,8 @@ public class Task1 {
 
         int per = a % b;
 
-        System.out.println("div=" + div + "\n" + "per=" + per);
+        System.out.println("div = " + div + "\n" + "per = " + per);
+
 
     }
 

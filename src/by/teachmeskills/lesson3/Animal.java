@@ -8,7 +8,9 @@ public class Animal {
 
     String age;
 
-    Animal (String type, String name, String age){
+    Animal (String type, String name, String age)
+
+    {
 
         this.type = type;
 

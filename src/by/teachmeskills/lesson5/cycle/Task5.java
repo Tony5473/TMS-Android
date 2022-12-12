@@ -9,14 +9,14 @@ public class Task5 {
     {
 
 
-        int a = -0;
+        int a = 5;
 
 
-        while ( a >= -50)
+        while ( a >= -45)
         {
-            a -= 5;
 
-            System.out.println(( + 5) + a );
+
+            System.out.println(a -= 5);
         }
 
 

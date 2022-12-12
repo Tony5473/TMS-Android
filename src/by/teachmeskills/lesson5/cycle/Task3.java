@@ -23,7 +23,7 @@ public class Task3 {
         for (int i = 1; i <= a; ++i)
 
         {
-            b = b + i;
+            b += + i;
 
             System.out.println(i);
         }

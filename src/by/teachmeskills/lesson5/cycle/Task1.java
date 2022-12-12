@@ -17,16 +17,12 @@ public class Task1 {
             {
                 System.out.println(i + " нечетное число ");
             }
-            else if ( i % 2 == 0 )
 
-            {
-                System.out.println( i + " четное число");
-            }
         }
 
 
         {
-           System.out.println( " Четные и Нечетные числа от 1 до 99 " );
+           System.out.println( "Нечетные числа от 1 до 99 " );
         }
 
 

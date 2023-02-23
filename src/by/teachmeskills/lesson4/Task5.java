@@ -10,10 +10,14 @@ public class Task5 {
     // Если t>–5, то вывести «Тепло».
     // Если –5>= t > –20, то вывести «Нормально».
     // Если –20>= t, то вывести «Холодно».
+
     {
+
+
         Scanner Scanner = new Scanner(System.in);
 
         int t = Scanner.nextInt();
+
 
         if ( t >= 25 )
         {
@@ -35,5 +39,6 @@ public class Task5 {
         }
 
     }
+
 
 }

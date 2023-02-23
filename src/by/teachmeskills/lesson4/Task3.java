@@ -10,29 +10,33 @@ public class Task3 {
         // месяца. (При решении используйте оператор if-else-if.)
 
     {
+
+
         Scanner Scanner = new Scanner(System.in);
 
         int a = Scanner.nextInt();
+
 
         if  ( a >= 1 && a <= 2 || a == 12 )
         {
             System.out.println("Зима");
         }
 
-        if ( a >= 3 && a <= 5)
+        if ( a >= 3 && a <= 5 )
         {
             System.out.println("Весна");
         }
 
-        if ( a >= 6 && a <= 8)
+        if ( a >= 6 && a <= 8 )
         {
             System.out.println("Лето");
         }
 
-        if ( a >= 9 && a <= 11)
+        if ( a >= 9 && a <= 11 )
         {
             System.out.println("Осень");
         }
+
 
     }
 

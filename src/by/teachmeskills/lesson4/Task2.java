@@ -17,7 +17,9 @@ public class Task2 {
 
         switch (a)
 
+
         {
+
 
             case (1),(2),(12):
 
@@ -45,6 +47,7 @@ public class Task2 {
 
             default:
                 System.out.println("Лето, круглый год =)");
+
 
         }
 

@@ -11,6 +11,8 @@ public class Task4 {
     // получения остатка от деления - операция выглядит так: '% 2').
 
     {
+
+
         Scanner Scanner = new Scanner(System.in);
 
         int a = Scanner.nextInt();
@@ -28,17 +30,6 @@ public class Task4 {
         }
 
 
-
-
-
-
-
-
-
-
-
     }
-
-
 
 }

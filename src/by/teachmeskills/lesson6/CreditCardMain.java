@@ -23,15 +23,15 @@ public class CreditCardMain {
         CreditCard AlfaCreditCard = new CreditCard("( 9801 3743 3772 8814 )");
 
 
-        {
+        { // не совсем понятно зачем ты добавил все в блок?
             System.out.println("Enter the deposit amount to the card №1");
         }
         BSBCreditCard.addSumBSB(Scanner.nextInt());
-        {
+        {// не совсем понятно зачем ты добавил все в блок?
             System.out.println("Enter the deposit amount to the card №2");
         }
         SBERCreditCard.addSumSBER(Scanner.nextInt());
-        {
+        {// не совсем понятно зачем ты добавил все в блок?
             System.out.println("Enter the amount to withdraw from the card №3");
         }
         AlfaCreditCard.withdrawSum(Scanner.nextInt());

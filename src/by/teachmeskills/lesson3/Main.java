@@ -6,7 +6,7 @@ public class Main {
     {
 
 
-        Animal kingAnimal = new Animal("Monckey", "Tony", "20");
+        Animal kingAnimal = new Animal("Monkey", "Tony", "20");
 
         System.out.println(kingAnimal.getTypeAndNameAndAge());
 

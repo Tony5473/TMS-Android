@@ -23,20 +23,18 @@ public class CreditCardMain {
         CreditCard AlfaCreditCard = new CreditCard("( 9801 3743 3772 8814 )");
 
 
-
+        {
             System.out.println("Enter the deposit amount to the card №1");
-        
+        }
         BSBCreditCard.addSumBSB(Scanner.nextInt());
-
+        {
             System.out.println("Enter the deposit amount to the card №2");
-
+        }
         SBERCreditCard.addSumSBER(Scanner.nextInt());
-
+        {
             System.out.println("Enter the amount to withdraw from the card №3");
-
+        }
         AlfaCreditCard.withdrawSum(Scanner.nextInt());
-
-
 
         System.out.println(BSBCreditCard.getInfo() + " " + BSBCreditCard.getSumBSB());
         System.out.println(SBERCreditCard.getInfo() + " " + SBERCreditCard.getSumSBER());

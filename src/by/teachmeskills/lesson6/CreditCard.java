@@ -11,7 +11,6 @@ public class CreditCard {
         this.balanceBSB = 100;
         this.balanceSBER = 80;
         this.balanceAlfa = 50;
-
     }
 
     public void addSumBSB(double sumToAdd) {
@@ -21,7 +20,11 @@ public class CreditCard {
         this.balanceSBER += sumToAdd;
     }
     public void withdrawSum(double sumToWithdraw){
-        this.balanceAlfa = this.balanceAlfa - sumToWithdraw;
+
+        if (sumToWithdraw > balanceAlfa){
+            System.out.println("Not enough money on the AlfaBank card");
+        }
+        else {this.balanceAlfa = this.balanceAlfa - sumToWithdraw;}
     }
 
     public String getInfo(){

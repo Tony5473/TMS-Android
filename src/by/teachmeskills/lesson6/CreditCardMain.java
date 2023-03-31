@@ -36,6 +36,8 @@ public class CreditCardMain {
 
         AlfaCreditCard.withdrawSum(Scanner.nextInt());
 
+        Scanner.close();
+
         System.out.println(BSBCreditCard.getInfo() + " " + BSBCreditCard.getSumBSB());
         System.out.println(SBERCreditCard.getInfo() + " " + SBERCreditCard.getSumSBER());
         System.out.println(AlfaCreditCard.getInfo() + " " + AlfaCreditCard.getSumAlfa());
